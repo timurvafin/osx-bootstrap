@@ -23,10 +23,10 @@ set -e
 modules=(
   functions
   osx_version
-  osx_update
+  # osx_update
   cmd_tools
   projectdir
-  dotfiles
+  # dotfiles
   ssh
   brew
   cask
