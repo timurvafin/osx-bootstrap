@@ -1,16 +1,2 @@
----
-before_script:
-- rvm use system
-- echo 'Remove RVM'
-- echo 'yes' | rvm --force implode
-- echo 'Remove homebrew'
-- cd `brew --prefix`
-- pwd
-- rm -rf Cellar
-- brew prune
-- rm -rf `git ls-files`
-- rm -rf Library/Homebrew Library/Aliases Library/Formula Library/Contributions
-- rm -rf .git
-- rm -rf ~/Library/Caches/Homebrew
 language: objective-c
 script: 'bin/ci'

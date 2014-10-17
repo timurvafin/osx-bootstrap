@@ -2,6 +2,24 @@
 
 set -e
 
+# # Remove RVM
+# rvm use system
+# echo 'Remove RVM'
+# echo 'yes' | rvm --force implode
+# echo ''
+
+# # Remove Homebrew
+# echo 'Remove Homebrew'
+# cd `brew --prefix`
+# pwd
+# rm -rf Cellar
+# brew prune
+# rm -rf `git ls-files`
+# rm -rf Library/Homebrew Library/Aliases Library/Formula Library/Contributions
+# rm -rf .git
+# rm -rf ~/Library/Caches/Homebrew
+# echo ''
+
 modules=(
   functions
   osx_version
