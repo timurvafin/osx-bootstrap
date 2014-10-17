@@ -1,2 +1,2 @@
 language: objective-c
-script: 'bash <(curl -s https://raw.githubusercontent.com/fs/osx-bootstrap/ci/bin/setup)'
+script: 'bin/setup'
