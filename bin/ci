@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+set -e
+
+modules=(
+  functions
+  osx_version
+  # osx_update
+  # cmd_tools
+  # projectdir
+  # dotfiles
+  # ssh
+  # brew
+  # cask
+  # ruby
+  # node_js
+  # powcx
+  # osx_defaults
+  # sublime_bootstrap
+)
+
+for module in "${modules[@]}"
+do
+  cd ~/.osx-bootstrap
+  source modules/$module.sh
+done
