@@ -27,7 +27,7 @@ modules=(
   cmd_tools
   projectdir
   # dotfiles
-  ssh
+  # ssh
   brew
   cask
   ruby
